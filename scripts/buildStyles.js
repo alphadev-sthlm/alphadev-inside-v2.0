@@ -2,6 +2,7 @@ const chokidar = require("chokidar");
 const fs = require("fs");
 const stylus = require("stylus");
 const path = require("path");
+const logger = require("../lib/logger");
 
 // Define input filename and output filename
 const styleInput = path.join(__dirname, "..", "assets", "styles", "main.styl");
@@ -17,6 +18,7 @@ buildStyles(styleInput, styleOutput, stylusPaths)
 if (process.argv.indexOf("-w") > -1) {
   const index = process.argv.indexOf("-w") + 1;
   const watchPath = process.argv[index];
+  logger.info("Watching stylesheet changes");
 
   chokidar.watch(watchPath).on('change', () => {
     buildStyles(styleInput, styleOutput, stylusPaths)
@@ -34,7 +36,7 @@ function buildStyles(input, output, paths) {
       fs.writeFile(output, css, (err) => {
         if (err) throw err;
 
-        console.log("Stylesheet built successfully");
+        logger.info("Stylesheet built successfully");
       });
   });
 }
