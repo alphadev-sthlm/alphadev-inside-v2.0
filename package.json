@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predev": "rimraf public",
     "nodemon": "nodemon",
-    "dev": "run-p nodemon",
-    "start": "node index.js"
+    "build:styles": "node scripts/buildStyles",
+    "build": "mkdir -p public & npm run build:styles",
+    "watch:styles": "node scripts/buildStyles -w 'assets/styles/**/*.styl'",
+    "watch": "npm run watch:styles",
+    "dev": "mkdir -p public & run-p watch nodemon",
+    "start": "npm run build & node index.js"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +24,8 @@
     "morgan": "^1.9.0"
   },
   "devDependencies": {
-    "npm-run-all": "^4.1.3"
+    "chokidar": "^2.0.4",
+    "npm-run-all": "^4.1.3",
+    "rimraf": "^2.6.2"
   }
 }
