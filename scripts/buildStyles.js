@@ -36,7 +36,7 @@ function buildStyles(input, output, paths) {
       fs.writeFile(output, css, (err) => {
         if (err) throw err;
 
-        logger.info("Stylesheet built successfully");
+        console.log("Wrote stylesheet to ", styleOutput);
       });
   });
 }

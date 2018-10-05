@@ -1,0 +1,6 @@
+{
+  "ignore": [
+    "assets/js/**/*.js",
+    "public/*.js"
+  ]
+}

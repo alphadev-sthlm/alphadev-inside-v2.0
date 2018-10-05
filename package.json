@@ -7,9 +7,11 @@
     "predev": "rimraf public",
     "nodemon": "nodemon",
     "build:styles": "node scripts/buildStyles",
-    "build": "mkdir -p public & npm run build:styles",
+    "build:scripts": "node scripts/buildScripts",
+    "build": "mkdir -p public & npm run build:styles & npm run build:scripts",
     "watch:styles": "node scripts/buildStyles -w 'assets/styles/**/*.styl'",
-    "watch": "npm run watch:styles",
+    "watch:scripts": "node scripts/buildScripts -w 'assets/js/**/*.js'",
+    "watch": "npm run watch:styles & npm run watch:scripts",
     "dev": "mkdir -p public & run-p watch nodemon",
     "start": "npm run build & node index.js"
   },
@@ -17,12 +19,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.1.2",
+    "chokidar": "^2.0.4",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "log": "^1.4.0",
-    "stylus": "^0.54.5",
     "morgan": "^1.9.0",
-    "chokidar": "^2.0.4"
+    "rollup": "^0.66.4",
+    "rollup-plugin-babel": "^4.0.3",
+    "stylus": "^0.54.5"
   },
   "devDependencies": {
     "npm-run-all": "^4.1.3",
