@@ -1,15 +1,14 @@
-
-<section class="timeline">
-    <h2>{{timeline.title}}</h2>
-    <ul class="timeline__items">
-      {{#each timeline.items}}
-        <li>
-          <h3>{{this.title}}</h3>
-          <p>{{this.text}}</p>
-          <div class="timeline__arrow">
-            <img src="/chevron.svg" alt="">
-          </div>
-        </li>
-      {{/each}}
-    </ul>
+<section id="timeline" class="timeline">
+  <h2>{{timeline.title}}</h2>
+  <ul class="timeline__items">
+    {{#each timeline.items}}
+      <li>
+        <h3>{{this.title}}</h3>
+        <p>{{this.text}}</p>
+        <div class="timeline__arrow">
+          <img src="/chevron.svg" alt="">
+        </div>
+      </li>
+    {{/each}}
+  </ul>
 </section>
