@@ -1,0 +1,79 @@
+.footer {
+
+}
+
+.footer__top {
+  width: content-width;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.footer__bottom {
+  background-color: green;
+}
+
+.footer__title {
+  max-width: 400px;
+  display: inline-block;
+}
+
+.footer__map {
+  background-image: url("/europakarta.svg");
+  background-repeat: no-repeat;
+  background-position-y: -30px;
+  width: 100%;
+  height: 560px;
+  position: relative;
+}
+
+.map-circle {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  &--one {
+    transform: translate(-51px, -76px);
+  }
+  &--two {
+    transform: translate(15px, 90px);
+  }
+  &--three {
+    transform: translate(-99px, 121px);
+  }
+  &--four {
+    transform: translate(-100px, 55px);
+  }
+  &--five {
+    transform: translate(-195px, 108px);
+  }  
+}
+
+
+circle {
+  stroke: orange; 
+  fill: orange;
+  stroke-width: 2px;
+  stroke-opacity: 1;
+}
+
+.pulse {
+  fill: white;
+  fill-opacity: 0;
+  transform-origin: 50% 50%;
+  animation-duration: 2s;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  from {
+    stroke-width: 3px;
+    stroke-opacity: 1;
+    transform: scale(0.3);
+  }
+  to {
+    stroke-width: 0;
+    stroke-opacity: 0;
+    transform: scale(2);
+  }
+}
