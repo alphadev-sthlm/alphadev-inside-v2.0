@@ -1,0 +1,80 @@
+.the-family {
+  margin: 0 auto;
+  max-width: content-width;
+}
+
+.the-family-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-between;
+
+  margin: 0 20px;
+  @media (min-width: is_tablet) {
+    margin: 0 20px;
+  }
+}
+
+image-width = 150px;
+
+.family-member {
+  width: 200px;
+  padding: 35px;
+  position: relative;
+
+  @media (min-width: is_tablet) {
+    width: 200px;
+  }
+  &__title {
+    margin: 0 -30px;
+    text-align: center;
+  }
+  &__image {
+    width: image-width;
+    height: image-width;
+  }
+
+  &__triangle {
+    position: absolute;
+    width: 200px;
+    height: 160px;
+    background-image: url("/triangles/personal_gron.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 0;
+    left: -10px;
+    z-index: 5;
+  }
+
+  &__image-container {
+    height: image-width;
+  }
+
+  &__image-wrapper {
+    position: absolute;
+    width: image-width;
+    height: image-width;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+}
+
+.family-member:nth-child(4n+1) {
+  .family-member__triangle {
+    background-image: url("/triangles/personal_orange.svg");
+
+  }
+}
+
+.family-member:nth-child(4n+2) {
+  .family-member__triangle {
+    background-image: url("/triangles/personal_lila.svg");
+  }
+}
+
+.family-member:nth-child(4n+3) {
+  .family-member__triangle {
+    background-image: url("/triangles/personal_bla.svg");
+  }
+}
