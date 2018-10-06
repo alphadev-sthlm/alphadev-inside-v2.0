@@ -22,4 +22,21 @@
 
 .customers__list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.customers__list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 33%;
+  margin-top: 30px;
+  filter: grayscale(100%);
+}
+
+.customers__list img {
+  display: block;
+  max-width: 150px;
+  max-height: 70px;
 }
