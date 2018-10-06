@@ -1,2 +1,18 @@
-the_family
-<hr>
+<section class="the-family">
+    <h2 class="the-family">Hälsa på oss i familjen</h2>
+    <div class="the-family-wrapper">
+        {{#each the_family.members}}
+            <!--{{> family_member person=this}}-->
+            <div class="family-member">
+                <div class="family-member__image-container">
+                    <div class="family-member__triangle"></div>
+                    <div class="family-member__image-wrapper">
+                        <img class="family-member__image" src="{{this.image}}">
+                    </div>
+                </div>
+                <h3 class="family-member__title">{{this.name}}</h3>
+                <span>{{this.title}}</span>
+            </div>
+        {{/each}}
+    </div>
+</section>
