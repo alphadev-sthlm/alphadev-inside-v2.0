@@ -1,2 +1,12 @@
-timeline
-<hr>
+
+<section class="timeline">
+    <h2>{{timeline.title}}</h2>
+    <ul class="timeline__items">
+      {{#each timeline.items}}
+        <li>
+          <h3>{{this.title}}</h3>
+          <p>{{this.text}}</p>
+        </li>
+      {{/each}}
+    </ul>
+</section>

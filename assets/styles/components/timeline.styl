@@ -1,0 +1,27 @@
+
+.timeline {
+  padding: 60px 30px;
+
+  @media (min-width: is_tablet) {
+    padding: 100px 0;
+  }
+}
+
+.timeline__items {
+  margin-top: 60px;
+  list-style-type: none;
+  max-width: content-width;
+  margin: 0 auto;
+}
+
+.timeline__items li {
+  width: 50%;
+
+  &:nth-child(even) {
+    margin-left: auto;
+  }
+}
+
+.timeline h2 {
+  text-align: center;
+}
