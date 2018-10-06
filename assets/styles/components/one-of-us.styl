@@ -1,11 +1,15 @@
 .one-of-us {
-  width: content-width;
   margin: 0 auto;
-  padding: 100px 0 50px;
+  padding: 100px 3.125% 50px;
+  max-width: content-width;
+  @media (min-width: is_tablet) {
+    padding: 100px 0 50px;
+  }
 }
 
 .one-of-us__top {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 80px;
 }
@@ -18,9 +22,14 @@
   flex: 1 0 44%;
   margin-right: 6%;
   padding-top: 60px;
-  height: 280px;
+  margin-bottom: 20px;
   position: relative;
   text-align: center;
+
+  @media (min-width: is_tablet) {
+    margin-bottom: 0;
+    height: 280px;
+  }
 
   .headline {
     position: relative;
@@ -53,6 +62,6 @@
 
 }
 
-.one-of-us__text {
+.one-of-us__body {
   flex: 1 0 50%;
 }
