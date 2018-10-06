@@ -1,2 +1,12 @@
-gallery
-<hr>
+<div class="gallery">
+  <div class="gallery__images">
+    <div class="gallery__overlay">
+      <h2 class="gallery__overlay-text">{{text}}</h2>
+    </div>
+    {{#each images}}
+      <div class="gallery__image">
+        <img src="{{this}}" />
+      </div>
+    {{/each}}
+  </div>
+</div>
