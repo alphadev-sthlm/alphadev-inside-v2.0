@@ -1,0 +1,85 @@
+
+.dotstyle-menu {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 30px;
+	transform: translateY(-50%);
+
+	@media (min-width: 800px) {
+		display: block;
+	}
+}
+
+.dotstyle-menu__list {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	cursor: default;
+}
+
+.dotstyle-menu__list-item {
+	position: relative;
+	display: block;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	margin: 20px auto;
+}
+
+.dotstyle-menu__list-item a {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border-radius: 50%;
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.3);
+	text-indent: -999em;
+	cursor: pointer; /* make the text accessible to screen readers */
+	position: absolute;
+
+	overflow: hidden;
+	background-color: rgba(0,0,0,0);
+	box-shadow: inset 0 0 0 2px rgba(255,255,255,1);
+	transition: background 0.3s;
+}
+
+.dotstyle-menu__list-item a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	height: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 0 0 1px #fff;
+	transition: height 0.3s;
+}
+
+.dotstyle-menu__list-item a:hover,
+.dotstyle-menu__list-item a:focus {
+	background-color: rgba(0,0,0,0.2);
+}
+
+.dotstyle-menu__list-item--current a::after {
+	height: 100%;
+}
+
+.dotstyle-menu__scroll-arrow,
+.dotstyle-menu__scroll-indicator {
+	width: 30px;
+	display: block;
+}
+
+.dotstyle-menu__scroll-arrow {
+	width: 20px;
+	margin: auto;
+}
+
+.dotstyle-menu__scroll-indicator {
+	margin-top: 60px;
+	margin-bottom: 15px;
+}
