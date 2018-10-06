@@ -1,4 +1,51 @@
 .one-of-us {
   width: content-width;
   margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  position:relative;
+}
+
+.one-of-us__title {
+  flex: 1 0 44%;
+  margin-right: 6%;
+  padding-top: 15px;
+  height: 280px;
+  position: relative;
+  text-align: center;
+
+  .headline {
+    position: relative;
+    z-index: 15;
+  }
+
+  .green-triangle {
+    position: absolute;
+    width: 310px;
+    height: 100%;
+    background-image: url("/triangles/personal_gron.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 0;
+    left: -10px;
+    z-index: 5;
+  }
+  .orange-triangle {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    background-size: 100% 100%;
+    background-image: url("/triangles/solid_triangel_orange.svg");
+    background-repeat: no-repeat;
+    z-index: 10;
+    transform: translate(-50%,0);
+    left: 50%;
+    top: 35px;
+  }
+
+}
+
+.one-of-us__text {
+  flex: 1 0 50%;
 }
