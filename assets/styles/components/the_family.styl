@@ -1,6 +1,15 @@
 .the-family {
   margin: 0 auto;
   max-width: content-width;
+  &__title {
+    text-align: center;
+  }
+  &__center-text {
+    text-align: center;
+    h4 {
+      color: orange-dark;
+    }
+  }
 }
 
 .the-family-wrapper {
@@ -25,9 +34,11 @@ image-width = 150px;
   @media (min-width: is_tablet) {
     width: 200px;
   }
-  &__title {
+  &--hide {
+    display: none;
+  }
+  &__description {
     margin: 0 -30px;
-    text-align: center;
   }
   &__image {
     width: image-width;
@@ -54,9 +65,10 @@ image-width = 150px;
     position: absolute;
     width: image-width;
     height: image-width;
-    padding-bottom: 100%;
     border-radius: 50%;
     overflow: hidden;
+    top: 10px;
+    left: 44px;
   }
 }
 

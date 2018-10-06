@@ -1,0 +1,36 @@
+.gallery {
+  width: content-width;
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+.gallery__images {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.gallery__overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0 12%;
+  background-color: rgba(0,0,0, 0.25);
+  text-align: center;
+}
+
+.gallery__overlay-text {
+  color: white;
+}
+
+.gallery__image {
+  flex: 1 1 25%;
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+}
