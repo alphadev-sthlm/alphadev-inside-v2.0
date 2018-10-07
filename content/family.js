@@ -1,9 +1,8 @@
 const fs = require('fs');
 const path = require("path");
 
-let peepPath = path.join(__dirname)+'/peeps/';
-const files = fs.readdirSync(peepPath);
-let definedPeeps = files.map(f => require(peepPath + f));
+let peepPath = path.join(__dirname) + '/peeps/';
+let definedPeeps = fs.readdirSync(peepPath).map(f => require(peepPath + f));
 
 const loremDetails = {
   "questions": [
