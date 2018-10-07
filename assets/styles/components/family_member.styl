@@ -1,7 +1,46 @@
 .family-member-details {
   flex: 0 0 100%;
-  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
   &--hide {
     display: none;
   }
+  justify-content: center;
+
+  &__image-wrapper {
+    justify-content center
+  }
+  &__image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  &__text {
+    flex: 0 0 100%;
+    @media (min-width: is_tablet) {
+      flex: 0 0 60%
+    }
+    margin-left: 50px;
+  }
+
+  &__paragraph {
+    margin-top: 0;
+  }
+}
+
+dl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+dt {
+  flex-basis: 20%;
+  margin: 0 0 0.5em;
+}
+
+dd {
+  flex-basis: calc(80% - 1em);
+  margin: 0 0 0.5em 1em;
 }
