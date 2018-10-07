@@ -1,0 +1,29 @@
+{
+  "name": "Leon Hennings",
+  "title": "Utvecklare",
+  "image": "peeps/leon_sml.png",
+  "details": {
+    "questions": [
+      {
+        "q": "När smakar en Tuborg bäst?",
+        "a": "Hvergang!"
+      },
+      {
+        "q": "Finns fri vilja?",
+        "a": "Troligtvis inte, men det spelar ingen roll."
+      },
+      {
+        "q": "Alien eller Aliens?",
+        "a": "Ettan såklart"
+      },
+      {
+        "q": "Vad är ditt sbästa  partytrick?",
+        "a": "Att prata för högt om saker som gör folk obekväma tills någon säger ifrån, och sen fortsätta lite till."
+      }
+    ],
+    "body": [
+      "Jag är utvecklare och jobbar vanligtvis med Java och JavaScript. Jag är spritt språngandes galen och gillar att ligga i bakhåll på folk i parker.",
+      "När folk inte gör som jag säger börjar jag oftast gråta. Kan inte ta kritik men är duktig på att ge den, helt utan att någon bett om det."
+    ]
+  }
+}
