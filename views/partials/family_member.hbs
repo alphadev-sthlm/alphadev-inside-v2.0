@@ -1,0 +1,12 @@
+<div class="family-member-details family-member-details--hide">
+  <img src="{{person.image}}">
+  <dl>
+    {{#each person.details.questions}}
+      <dt class="family-member-details__question">{{this.q}}</dt>
+      <dd class="family-member-details__answer">{{this.a}}</dd>
+    {{/each}}
+    {{#each person.details.body}}
+      <p>{{this}}</p>
+    {{/each}}
+  </dl>
+</div>
