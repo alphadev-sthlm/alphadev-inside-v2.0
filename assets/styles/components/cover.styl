@@ -7,6 +7,12 @@
   justify-content: center;
   background-image: url('cover.jpg');
   background-size: cover;
+  background-color: purple-darker;
+
+  padding: 15px;
+  @media (min-width: is_tablet) {
+    padding: 0;
+  }
 }
 
 .cover__inside-svg {
@@ -15,8 +21,10 @@
 }
 
 .cover__alphadev-svg {
-  width: 600px;
   margin-bottom: 20px;
+  @media (min-width: is_tablet) {
+    width: 600px;
+  }
 }
 
 .cover__subtext {
