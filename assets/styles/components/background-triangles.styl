@@ -1,6 +1,10 @@
 .bg-triangle {
-  position: fixed;
-  width: 70%;
+  display: none;
+  @media (min-width: is_tablet) {
+    display: block;
+    position: fixed;
+    width: 70%;
+  }
 }
 
 .bg-triangle--green {
@@ -15,12 +19,12 @@
   width: 60%;
 }
 
-.bg-triangle-orange {
-  right: 5%;
-  position: fixed;
-  bottom: 0;
-  width: 100px;
-}
+// .bg-triangle-orange {
+//   right: 5%;
+//   position: fixed;
+//   bottom: 0;
+//   width: 100px;
+// }
 
 .bg-triangle-blue-small {
   display: none;
