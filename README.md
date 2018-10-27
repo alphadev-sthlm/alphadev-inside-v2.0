@@ -5,6 +5,8 @@ Run at `localhost:3000`:
     npm install
     npm run dev
 
+
+Download nvm
 Content configured in [routes.js](lib/init/routes.js)
 
 Handlebar loads main view [home](views/home.hbs) and partials from [partials](views/partials)
