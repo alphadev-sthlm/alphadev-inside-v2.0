@@ -1,0 +1,10 @@
+<section id="benefits" class="benefits">
+  <div class="benefits__usps">
+    {{#each usps}}
+      <div class="benefits__overlay">
+        <h1 class="benefits__overlay-text">{{this.title}}</h1>
+        <p class="benefits__overlay-text">- {{this.text}}</p>
+      </div>
+    {{/each}}
+  </div>
+</section>
