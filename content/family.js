@@ -33,7 +33,7 @@ const members = [
   {
     "name": "Sammi Haj Hassine",
     "title": "Utvecklare",
-    "image": "peeps2/Sammi_prt_pale.jpg",
+    "image": "peeps2/Sammi_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
@@ -105,7 +105,7 @@ const members = [
   {
     "name": "Erik Scherman",
     "title": "Utvecklare",
-    "image": "peeps2/Erik_prt_pale.jpg",
+    "image": "peeps2/Erik_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
