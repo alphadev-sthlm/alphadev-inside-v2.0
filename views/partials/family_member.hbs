@@ -7,7 +7,7 @@
     <span>{{person.title}}</span>
     <dl>
       {{#each person.details.questions}}
-        <dt class="family-member-details__question">{{this.q}}</dt>
+        <dt class="family-member-details__question"><h4>{{this.q}}</h4></dt>
         <dd class="family-member-details__answer">{{this.a}}</dd>
       {{/each}}
       {{#each person.details.body}}
