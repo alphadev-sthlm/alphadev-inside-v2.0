@@ -35,3 +35,32 @@
   text-align: center;
   color: white;
 }
+
+.cover__arrow {
+  width: 40px;
+  position: absolute;
+  bottom: 80px;
+  opacity: 0;
+  transition: all 2s ease-in-out;
+}
+
+.cover__arrow--anim {
+  opacity: 1;
+  bottom: 40px; 
+}
+
+.cover__arrow--remove {
+  opacity: 0;
+}
+
+.cover__arrow--bounce {
+  animation: animation 10s infinite;
+}
+
+@keyframes animation {
+  0%   { bottom: 40px; }
+  10%   { bottom: 60px; }
+  20%   { bottom: 40px; }
+  30% { bottom: 60px; }
+  40% { bottom: 40px; }
+}
