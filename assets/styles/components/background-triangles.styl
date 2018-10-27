@@ -1,0 +1,34 @@
+.bg-triangle {
+  position: fixed;
+  width: 70%;
+}
+
+.bg-triangle--green {
+  transform: translateX(-50%);
+  top: 0;
+}
+
+.bg-triangle--blue {
+  transform: translateX(60%);
+  right: 0;
+  bottom: 0;
+  width: 60%;
+}
+
+.bg-triangle-orange {
+  right: 5%;
+  position: fixed;
+  bottom: 0;
+  width: 100px;
+}
+
+.bg-triangle-blue-small {
+  display: none;
+  @media (min-width: is_tablet) {
+    display: block;
+    left: 5%;
+    position: fixed;
+    bottom: 0;
+    width: 100px;
+  }
+}
