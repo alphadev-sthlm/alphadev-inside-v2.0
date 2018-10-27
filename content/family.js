@@ -33,115 +33,115 @@ const members = [
   {
     "name": "Sammi Haj Hassine",
     "title": "Utvecklare",
-    "image": "peeps/sammi_sml.png",
+    "image": "peeps2/Sammi_prt_pale.jpg",
     "details": loremDetails
   },
   {
     "name": "Olle Kallström",
     "title": "Utvecklare",
-    "image": "peeps/olle_sml.jpg",
+    "image": "peeps2/Olle_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
     "name": "Jon Neergaard",
     "title": "VD",
-    "image": "peeps/jon_sml.jpg",
+    "image": "peeps2/Jon_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
     "name": "Jens Ohlsson",
     "title": "Utvecklare",
-    "image": "peeps/jens_sml.png",
+    "image": "peeps2/Jens_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
     "name": "Jonas Montonen",
     "title": "Utvecklare",
-    "image": "peeps/jonas_sml.jpg",
+    "image": "peeps2/Jonas_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
     "name": "Peter Österdahl",
     "title": "Utvecklare",
-    "image": "peeps/peter_sml.jpg",
+    "image": "peeps2/Peter_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
     "name": "Daniel Lundström",
     "title": "Utvecklare",
-    "image": "peeps/daniel_sml.jpg",
+    "image": "peeps2/Lundström_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
     "name": "Daniel Hamner",
     "title": "Utvecklare",
-    "image": "peeps/hamner_sml.png",
+    "image": "peeps2/Hamner_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
     "name": "Fredrik Bergström",
     "title": "Utvecklare",
-    "image": "peeps/fredrik_sml.jpg",
+    "image": "peeps2/Fredrik_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
     "name": "Johan Windahl",
     "title": "Business manager",
-    "image": "peeps/johan_w_sml.jpg",
+    "image": "peeps2/Windahl_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
     "name": "Johan Lindgren",
     "title": "Utvecklare",
-    "image": "peeps/johan_l_sml.jpg",
+    "image": "peeps2/Lindgren_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
     "name": "Tommy Lindberg",
     "title": "Utvecklare",
-    "image": "peeps/tommy_sml.jpg",
+    "image": "peeps2/Tommy_prt_pale.jpg",
     "details": loremDetails
   },
   {
     "name": "Erik Scherman",
     "title": "Utvecklare",
-    "image": "peeps/scherman_sml.png",
+    "image": "peeps2/Erik_prt_pale.jpg",
     "details": loremDetails
   },
   {
     "name": "Helena Tehler",
     "title": "Projektledare",
-    "image": "peeps/helena_sml.png",
+    "image": "peeps2/Helena_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
     "name": "Anders Ulfheden",
     "title": "Utvecklare",
-    "image": "peeps/anders_sml.png",
+    "image": "peeps2/Ulfheden_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
     "name": "Robert Wideberg",
     "title": "Utvecklare",
-    "image": "peeps/robert_sml_bw.png",
+    "image": "peeps2/Robert_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
     "name": "Johan Andersson",
     "title": "Utvecklare",
-    "image": "peeps/johan_andersson_sml_bw.png",
+    "image": "peeps2/Andersson_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
     "name": "Markus Rantanikunen",
     "title": "Utvecklare",
-    "image": "peeps/markus_sml_bw.png",
+    "image": "peeps2/Markus_prt_pale_sml.jpg",
     "details": loremDetails
   },
   {
     "name": "Marcus Höjvall",
     "title": "Utvecklare",
-    "image": "peeps/marcus_sml_bw.png",
+    "image": "peeps2/Höjvall_prt_pale_sml.jpg",
     "details": loremDetails
   }
 ];
