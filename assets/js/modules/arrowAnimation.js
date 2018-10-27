@@ -6,14 +6,16 @@ function arrowAnimation() {
     arrow.classList.add('cover__arrow--bounce');
   }, 3000);
 
-  window.document.addEventListener("scroll", () => {
-    const animationPosition = window.innerHeight / 2;
-
-    if (window.scrollY > animationPosition) {
-      arrow.classList.add("cover__arrow--remove");
-    } else {
-      arrow.classList.remove("cover__arrow--remove");
-    }
+  new Waypoint({
+    element: document.getElementById("cover"),
+    handler: (direction) => {
+      if (direction === "down") {
+        arrow.classList.add("cover__arrow--remove");
+      } else {
+        arrow.classList.remove("cover__arrow--remove");
+      }
+    },
+    offset: -window.innerHeight / 2
   });
 }
 
