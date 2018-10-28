@@ -17,11 +17,11 @@ function addParallaxEffect() {
   });
 }
 
-function backgroundTriangles() {
+function backgroundParallax() {
   const triangleGreen = window.document.getElementById("bg-triangle-green");
 
   const isDisplayed = triangleGreen.offsetHeight > 0;
   if (isDisplayed) addParallaxEffect();  
 }
 
-export default backgroundTriangles;
+export default backgroundParallax;

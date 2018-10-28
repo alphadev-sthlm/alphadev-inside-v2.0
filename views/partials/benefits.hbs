@@ -1,10 +1,19 @@
 <section id="benefits" class="benefits">
   <div class="benefits__usps">
-    {{#each usps}}
-      <div class="benefits__overlay">
-        <h1 class="benefits__overlay-text">{{this.title}}</h1>
-        <p class="benefits__overlay-text">- {{this.text}}</p>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {{#each usps}}
+        <div class="swiper-slide">
+          <div class="benefits__overlay">
+            <h1 class="benefits__overlay-text">{{this.title}}</h1>
+            <p class="benefits__overlay-text">- {{this.text}}</p>
+          </div>
+        </div>
+        {{/each}}
       </div>
-    {{/each}}
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev swiper-button-black"></div>
+      <div class="swiper-button-next swiper-button-black"></div>
+    </div>
   </div>
 </section>
