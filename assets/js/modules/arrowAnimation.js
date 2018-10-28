@@ -19,4 +19,4 @@ function arrowAnimation() {
   });
 }
 
-export default arrowAnimation
+export default arrowAnimation;
