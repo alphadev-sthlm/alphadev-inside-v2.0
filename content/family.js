@@ -7,25 +7,20 @@ let definedPeeps = fs.readdirSync(peepPath).map(f => require(peepPath + f));
 const loremDetails = {
   "questions": [
     {
-      "q": "Ja eller nej?",
-      "a": "Båda"
+      "q": "Favoritfilm",
+      "a": "Inglourious Basterds "
     },
     {
-      "q": "Glass eller tårta?",
-      "a": "Diabetes"
+      "q": "Oväntad talang",
+      "a": "Fågelskådare"
     },
     {
-      "q": "Mat eller svält?",
-      "a": "Huel är lite av båda."
-    },
-    {
-      "q": "Kommer du hit ofta och smular med dina kex?",
-      "a": "Jag äter knäckebröd i sängen."
+      "q": "Åker helst",
+      "a": "Skidor"
     }
   ],
   "body": [
-    "Lorem ipsum dolor amet master cleanse truffaut taiyaki, hammock irony mustache flexitarian raclette seitan twee. Vexillologist man bun kogi shaman. Truffaut pitchfork offal art party, subway tile tumeric hella ramps biodiesel portland disrupt chia migas. Man bun tousled affogato XOXO. Mixtape before they sold out biodiesel truffaut kogi kombucha kinfolk gentrify. Street art 90's gluten-free umami kickstarter, snackwave hexagon fam. Bespoke iPhone whatever vice everyday carry.",
-    "Messenger bag banjo pinterest tilde before they sold out four loko seitan taiyaki deep v intelligentsia scenester fashion axe knausgaard crucifix biodiesel. Banh mi pour-over cronut normcore farm-to-table four dollar toast shaman lomo gentrify master cleanse direct trade actually distillery. Venmo literally swag vice affogato, try-hard keffiyeh etsy. Subway tile cornhole mixtape chia. Keffiyeh dreamcatcher palo santo vinyl raw denim asymmetrical. Artisan XOXO chicharrones YOLO fam 3 wolf moon plaid meh polaroid."
+    "Lorem ipsum dolor amet master cleanse truffaut taiyaki, hammock irony mustache flexitarian raclette seitan twee. Vexillologist man bun kogi shaman. Truffaut pitchfork offal art party."
   ]
 };
 
