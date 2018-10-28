@@ -34,7 +34,7 @@ function addDotMenuHandler() {
         element: listItem,
         handler: function(direction) {
           if (direction === "down") {
-            history.pushState(null, null, `#${id}`);
+            history.replaceState(null, null, `#${id}`);
             toggleCurrentClass();
           }
         },
@@ -46,7 +46,7 @@ function addDotMenuHandler() {
         element: listItem,
         handler: function(direction) {
           if (direction === "up") {
-            history.pushState(null, null, `#${id}`);
+            history.replaceState(null, null, `#${id}`);
             toggleCurrentClass();
           }
         },
@@ -56,7 +56,9 @@ function addDotMenuHandler() {
   }
 
   function setupSmoothScrolling() {
-    const scroll = new SmoothScroll('a[href*="#"]');
+    const scroll = new SmoothScroll('a[href*="#"]', {
+      updateURL: false
+    });
     document.addEventListener('scrollStop', () => {
       toggleCurrentClass();
     }, false);
