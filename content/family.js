@@ -135,6 +135,6 @@ const members = [
   }
 ];
 module.exports = {
-  "title": "Hälsa på oss i familjen",
+  "title": "Hälsa på några i familjen",
   "members": definedPeeps.filter(peep => peep.isPublished)
 };
