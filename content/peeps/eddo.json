@@ -1,5 +1,5 @@
 {
-  "isPublished": false,
+  "isPublished": true,
   "name": "Eduardo Castaneda",
   "title": "Utvecklare",
   "image": "peeps2/Eddo_prt_pale_sml.jpg",
@@ -7,20 +7,23 @@
   "details": {
     "questions": [
       {
-        "q": "Star Wars eller Star Trek?",
-        "a": "Star Wars!"
+        "q": "Vem var din barndomsidol?",
+        "a": "Billy the Kid och Richie Valens"
       },
       {
-        "q": "Tabs eller spaces?",
-        "a": "Kodar uglifierat direkt!"
+        "q": "När blev du riktigt glad senast?",
+        "a": "När AIK tog SM-guld"
       },
       {
-        "q": "Alien 1 eller 2??",
-        "a": "Får man välja Predator?"
+        "q": "Vilken skulle vara din superhjälteförmåga?",
+        "a": "Teleportera mig"
+      },
+      {
+        "q": "Bästa programmeringsspråket?",
+        "a": "javascript"
       }
     ],
     "body": [
-      "Lorem ipsum dolor amet master cleanse truffaut taiyaki, hammock irony mustache flexitarian raclette seitan twee. Vexillologist man bun kogi shaman. Truffaut pitchfork offal art party."
     ]
   }
 }
