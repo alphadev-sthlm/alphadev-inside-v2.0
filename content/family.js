@@ -136,5 +136,5 @@ const members = [
 ];
 module.exports = {
   "title": "Hälsa på oss i familjen",
-  "members": definedPeeps //definedPeeps.concat()
+  "members": definedPeeps.filter(peep => peep.isPublished)
 };
