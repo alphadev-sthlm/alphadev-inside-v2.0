@@ -1,5 +1,5 @@
 {
-  "isPublished": true,
+  "isPublished": false,
   "name": "Johan Lindgren",
   "title": "Utvecklare",
   "image": "peeps2/Lindgren_prt_pale_sml.jpg",
@@ -20,12 +20,10 @@
       },
       {
         "q": "Bästa tid på vätternrundan?",
-        "a": "9.24"
+        "a": "9.24 "
       }
     ],
     "body": [
-      "Om jasg inte var systemutvecklare så skulle jag vilja vara en sånhär riktig korsförhörsjournalist som politikerna bävar för. Jag har ett träd med alla frågor man kan ställa och har dessutom alla svar de kan ge.",
-      "Jag tror vi kommer se en återgång till viktoriansk datingkultur där uppvaktande och spel premieras över dagens väl blatanta känslouttryck."
     ]
   }
 }
