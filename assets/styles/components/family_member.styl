@@ -10,10 +10,26 @@
   &__image-wrapper {
     justify-content center
   }
+
+
   &__image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    &--mobile {
+      display: block;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      @media (min-width: is_tablet) {
+        display:none;
+      }
+    }
+    &--desktop {
+      display: none;
+      width: 200px;
+      height: auto;
+      @media (min-width: is_tablet) {
+        display:block;
+      }
+  }
   }
 
   &__text {
@@ -23,6 +39,12 @@
       margin-left: 50px;
       flex: 0 0 60%
     }
+    @media (max-width: is_tablet) {
+      h3 {
+        margin-top: 25px;
+      }
+    }
+   
   }
 
   &__paragraph {
@@ -38,11 +60,19 @@ dl {
 }
 
 dt {
-  flex-basis: 35%;
-  margin: 0 0 0.5em;
+  flex-basis: 100%;
+  margin: 0 0 0.2em;
+  @media (min-width: is_tablet) {
+    flex-basis: 35%;
+    margin: 0 0 0.5em;
+  }
 }
 
 dd {
-  flex-basis: calc(65% - 1em);
-  margin: 0 0 0.5em 1em;
+  flex-basis: 100%;
+  margin: 0 0 0.8em 0;
+  @media (min-width: is_tablet) {
+    flex-basis: calc(65% - 1em);
+    margin: 0 0 0.2em 1em;
+  }
 }

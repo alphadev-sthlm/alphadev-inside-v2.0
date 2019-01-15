@@ -142,5 +142,5 @@ const members = [
 ];
 module.exports = {
   "title": "Hälsa på oss i familjen",
-  "members": definedPeeps.concat(members)
+  "members": definedPeeps //definedPeeps.concat()
 };
