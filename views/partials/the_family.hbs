@@ -1,28 +1,37 @@
 <section id="family" class="the-family section">
   <h2 class="the-family__title">{{title}}</h2>
   <div class="the-family-wrapper">
-    {{#each members}}
-      <div class="family-member">
-        <div class="family-member__image-container">
-          <div class="family-member__triangle"></div>
-          <div class="family-member__image-wrapper">
-            <img class="family-member__image" src="{{this.image}}">
+
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {{#each members}}
+        <div class="swiper-slide">
+          <div class="family-member-details">
+            <div class="family-member-details__image-wrapper">
+              <img class="family-member-details__image" src="{{this.image}}">
+            </div>
+            <div class="family-member-details__text">
+              <h3>{{this.name}}</h3>
+              <span>{{this.title}}</span>
+              <dl>
+                {{#each this.details.questions}}
+                <dt class="family-member-details__question">
+                  <h4>{{this.q}}</h4>
+                </dt>
+                <dd class="family-member-details__answer">{{this.a}}</dd>
+                {{/each}}
+                {{#each this.details.body}}
+                <p class="family-member-details__paragraph">{{this}}</p>
+                {{/each}}
+              </dl>
+            </div>
           </div>
         </div>
-        <div class="family-member__description">
-          <h3>{{this.name}}</h3>
-          <span>{{this.title}}</span>
-        </div>
-        {{> family_member person=this}}
+        {{/each}}
       </div>
-    {{/each}}
-  </div>
-  <div class="the-family__center-text">
-    <span id="show-all-arrow" class="arrow">
-      <span></span>
-      <span></span>
-      <span></span>
-    </span>
-    <h4>SE ALLA {{members.length}}</h4>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev swiper-button-black"></div>
+      <div class="swiper-button-next swiper-button-black"></div>
+    </div>
   </div>
 </section>
