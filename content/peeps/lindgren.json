@@ -1,0 +1,29 @@
+{
+  "name": "Johan Lindgren",
+  "title": "Utvecklare",
+  "image": "peeps2/Lindgren_prt_pale_sml.jpg",
+  "details": {
+    "questions": [
+      {
+        "q": "Vilken är den bästa synthen?",
+        "a": "Roland D50"
+      },
+      {
+        "q": "Favoritcitat?",
+        "a": "If you don't know, the thing to do is not to get scared, but to learn."
+      },
+      {
+        "q": "Kan du känna skillnad på rött vin och rödfärgat vitt vin?",
+        "a": "Ja. Lätt. Eller inte lätt, det går att göra svårt. Om man väljer rätt rödvin."
+      },
+      {
+        "q": "Bästa tid på vätternrundan?",
+        "a": "9.24"
+      }
+    ],
+    "body": [
+      "Om jasg inte var systemutvecklare så skulle jag vilja vara en sånhär riktig korsförhörsjournalist som politikerna bävar för. Jag har ett träd med alla frågor man kan ställa och har dessutom alla svar de kan ge.",
+      "Jag tror vi kommer se en återgång till viktoriansk datingkultur där uppvaktande och spel premieras över dagens väl blatanta känslouttryck."
+    ]
+  }
+}
