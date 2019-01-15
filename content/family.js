@@ -86,12 +86,6 @@ const members = [
     "details": loremDetails
   },
   {
-    "name": "Johan Lindgren",
-    "title": "Utvecklare",
-    "image": "peeps2/Lindgren_prt_pale_sml.jpg",
-    "details": loremDetails
-  },
-  {
     "name": "Tommy Lindberg",
     "title": "Utvecklare",
     "image": "peeps2/Tommy_prt_pale.jpg",
