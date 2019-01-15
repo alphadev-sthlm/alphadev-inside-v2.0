@@ -4,7 +4,11 @@
     {{#each items}}
       <li>
         <h3>{{this.title}}</h3>
-        <p>{{this.text}}</p>
+        {{#each this.text}}
+          <p class="timeline__text">
+            {{{this}}}
+          </p>
+        {{/each}}
         <div class="timeline__arrow">
           <img src="/chevron.svg" alt="">
         </div>

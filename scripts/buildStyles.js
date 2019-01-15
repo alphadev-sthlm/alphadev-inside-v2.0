@@ -9,11 +9,11 @@ const styleInput = path.join(__dirname, "..", "assets", "styles", "main.styl");
 const styleOutputFilename = "main.css";
 const styleOutput = path.join(__dirname, "..", "public", styleOutputFilename);
 const components = path.join(__dirname, "..", "assets", "styles", "components");
-const base = path.join(__dirname, "..", "assets", "styles", "base")
+const base = path.join(__dirname, "..", "assets", "styles", "base");
 const stylusPaths = [components, base];
 
 // Build stylesheet on first execute
-buildStyles(styleInput, styleOutput, stylusPaths)
+buildStyles(styleInput, styleOutput, stylusPaths);
 
 if (process.argv.indexOf("-w") > -1) {
   const index = process.argv.indexOf("-w") + 1;
@@ -30,7 +30,7 @@ function buildStyles(input, output, paths) {
     .set('paths', paths)
     .set('include css', true)
     .set('watch', true)
-    .render(function(err, css) {
+    .render(function (err, css) {
       if (err) throw err;
 
       fs.writeFile(output, css, (err) => {
@@ -38,5 +38,5 @@ function buildStyles(input, output, paths) {
 
         console.log("Wrote stylesheet to ", styleOutput);
       });
-  });
+    });
 }
