@@ -36,7 +36,7 @@
     flex: 0 0 100%;
     text-align: left;
     @media (min-width: is_tablet) {
-      margin-left: 50px;
+      margin-left: 20px;
       flex: 0 0 60%
     }
     @media (max-width: is_tablet) {
@@ -44,12 +44,11 @@
         margin-top: 25px;
       }
     }
-   
   }
 
   &__paragraph {
     margin-top: 0;
-    padding: 25px 0;
+    padding: 15px 0 10px 0;
   }
 }
 
@@ -62,17 +61,9 @@ dl {
 dt {
   flex-basis: 100%;
   margin: 0 0 0.2em;
-  @media (min-width: is_tablet) {
-    flex-basis: 35%;
-    margin: 0 0 0.5em;
-  }
 }
 
 dd {
   flex-basis: 100%;
   margin: 0 0 0.8em 0;
-  @media (min-width: is_tablet) {
-    flex-basis: calc(65% - 1em);
-    margin: 0 0 0.2em 1em;
-  }
 }
