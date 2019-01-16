@@ -1,30 +1,26 @@
 {
-  "isPublished": false,
+  "isPublished": true,
   "name": "Jon Neergaard",
-  "title": "Utvecklare",
+  "title": "VD",
   "image": "peeps2/Jon_prt_pale_sml.jpg",
   "image-large": "peeps3/jon.jpeg",
   "details": {
     "questions": [
       {
-        "q": "Favoritfilm?",
-        "a": "Såna man äter godis till."
+        "q": "Vilken var den senaste bra boken du läste?",
+        "a": "Så många bra… Liv 3.0 med Max Tegmark var senaste."
       },
       {
-        "q": "Om du var Harry Potter: vilket elevhem skulle du hamnat i?",
-        "a": "Harry who?"
+        "q": "När peakade Hasselhoff?",
+        "a": "I’ve been lookin’ for freedom!"
       },
       {
-        "q": "Vilken våning är du?",
-        "a": "Härligt med en enkel fråga! Våning 6. Så man överlever då hissen står still, och samtidigt ser himlen."
+        "q": "Bästa programmeringsspråket?",
+        "a": "10 PRINT ”Basic rules”"
       },
       {
-        "q": "Sämsta djuret att bli dödad av?",
-        "a": "Katten Selma; alltså min katt som är styva 100 kattår(?)"
-      },
-      {
-        "q": "Vem är Jens?",
-        "a": "Javautvecklare & golfande black metal lover med två barn. Jag är lat-smart och en allmänt sjysst dude, tycker båda jag och mamma."
+        "q": "Vem är Jon?",
+        "a": "VD och allt-i-allo på Alphadev. Började som utvecklare en gång i tiden, sen vet jag inte riktigt vad som gick snett 😊. Bor i Sollentuna med min sambo, våra tre barn och katten Sigge."
       }
     ],
     "body": [
