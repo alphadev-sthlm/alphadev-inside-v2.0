@@ -1,3 +1,43 @@
+.benefits-details {
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  &--hide {
+    display: none;
+  }
+  justify-content: center;
+
+  &__image-wrapper {
+    justify-content center
+  }
+
+  &__text {
+    flex: 0 0 100%;
+    text-align: left;
+    @media (min-width: is_tablet) {
+      margin-left: 5px;
+      flex: 0 0 60%
+    }
+    @media (max-width: is_tablet) {
+      h3 {
+        margin-top: 25px;
+      }
+    }
+  }
+
+  &__image {
+    &--desktop {
+      width: 150px;
+      height: auto;
+      @media (min-width: is_tablet) {
+        display:block;
+      }
+      align-items: center;
+    }
+  }
+}
+
 .benefits {
   max-width: content-width;
   padding: 50px 0;
@@ -23,6 +63,10 @@
 		height: 300px;
     padding: 0 14%;
 	}
+
+  &-title {
+    text-align: center;
+  }
 }
 
 .benefits__overlay-text {
