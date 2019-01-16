@@ -5,7 +5,7 @@ function carousel() {
       el: '.swiper-pagination',
     },
     autoplay: {
-      delay: 4000,
+      delay: 12000,
     },
     navigation: {
       nextEl: '.swiper-button-next',
