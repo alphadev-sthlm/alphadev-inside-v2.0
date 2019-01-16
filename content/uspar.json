@@ -2,35 +2,43 @@
   "usps": [
     {
       "title": "Frihet",
-      "text": "Det kanske mest sammanfattande ordet för Alphadev, som genomsyrar allt vi gör och hur vi är organiserade."
+      "text": "Det kanske mest sammanfattande ordet för Alphadev, som genomsyrar allt vi gör och hur vi är organiserade.",
+      "image": "iconmap.svg#svgView(viewBox(154, 354, 20, 20))"
     },
     {
       "title": "Kaizen",
-      "text": "Vi tror inte att vi är bäst på allt - men vi har ambitionen. Och vi har insikten att vi ständigt måste utvärdera oss själva, våga prova, våga revidera, våga förändra oss. Alla bidrar med idéer och feedback kring hur vi jobbar, och hjälper oss att styra oss själva till att bli det bästa konsultbolaget för en vass och driven utvecklare i Stockholm."
+      "text": "Vi tror inte att vi är bäst på allt - men vi har ambitionen. Och vi har insikten att vi ständigt måste utvärdera oss själva, våga prova, våga revidera, våga förändra oss. Alla bidrar med idéer och feedback kring hur vi jobbar, och hjälper oss att styra oss själva till att bli det bästa konsultbolaget för en vass och driven utvecklare i Stockholm.",
+      "image": "iconmap.svg#svgView(viewBox(797, 109, 20, 20))"
     },
     {
       "title": "Mer kaka",
-      "text": "Vi har slimmat organisationen och ger istället så mycket vi kan tillbaka till dig som konsult. Alla har samma lönemodell; vi kör helt rörliga löner och som konsult behåller du 80% själv."
+      "text": "Vi har slimmat organisationen och ger istället så mycket vi kan tillbaka till dig som konsult. Alla har samma lönemodell; vi kör helt rörliga löner och som konsult behåller du 80% själv.",
+      "image": "iconmap.svg#svgView(viewBox(511, 56, 20, 20))"
     },
     {
       "title": "Transparens",
-      "text": "Varför kan vi driva ett riktigt bra konsultbolag med massor av roliga events, kompetensdelning, schysst kontor och samtidigt ge grymma löner? För att vi är effektiva med vart pengarna tar vägen. Och vi skäms inte för att visa vart alla pengar kommer ifrån och tar vägen för våra anställda, vilket gör på regelbunden basis. Vi tål att jämföras."
+      "text": "Varför kan vi driva ett riktigt bra konsultbolag med massor av roliga events, kompetensdelning, schysst kontor och samtidigt ge grymma löner? För att vi är effektiva med vart pengarna tar vägen. Och vi skäms inte för att visa vart alla pengar kommer ifrån och tar vägen för våra anställda, vilket gör på regelbunden basis. Vi tål att jämföras.",
+      "image": "iconmap.svg#svgView(viewBox(399, 165, 20, 20))"
     },
     {
       "title": "Samhörighet",
-      "text": "Alphadev fungerar för att alla är delaktiga och hjälps åt. Men när vi jobbar åt våra kunder sitter vi ofta fysiskt åtskilda. För att skapa samhörighet när man spenderar stor del av tiden åtskilda krävs ett aktivt arbete, med många möjligheter att ses för att lära känna varandra. Och vi satsar stort på detta."
+      "text": "Alphadev fungerar för att alla är delaktiga och hjälps åt. Men när vi jobbar åt våra kunder sitter vi ofta fysiskt åtskilda. För att skapa samhörighet när man spenderar stor del av tiden åtskilda krävs ett aktivt arbete, med många möjligheter att ses för att lära känna varandra. Och vi satsar stort på detta.",
+      "image": "iconmap.svg#svgView(viewBox(547, 108, 20, 20))"
     },
     {
       "title": "Inga chefer",
-      "text": "Någon traditionell chef behövs inte på Alphadev; nästan alla beslut som du tidigare frågat din chef om, fattar du nu själv. Däremot får du hjälp att fatta bra beslut, och - om du vill - får du en egen personlig utvecklingscoach. Och givetvis all form av markservice, säljhjälp, etc, som man behöver för att göra ett bra jobb."
+      "text": "Någon traditionell chef behövs inte på Alphadev; nästan alla beslut som du tidigare frågat din chef om, fattar du nu själv. Däremot får du hjälp att fatta bra beslut, och - om du vill - får du en egen personlig utvecklingscoach. Och givetvis all form av markservice, säljhjälp, etc, som man behöver för att göra ett bra jobb.",
+      "image": "iconmap.svg#svgView(viewBox(253, 547, 20, 20))"
     },
     {
       "title": "Jämlikhet",
-      "text": "Alla har samma lönemodell - inga jobbiga löneförhandlingar; det spelar ingen roll om du kom in sist eller grundade bolaget. Inga konsulttrappor, stegar, etc. Alla har samma förutsättningar fråndag 1."
+      "text": "Alla har samma lönemodell - inga jobbiga löneförhandlingar; det spelar ingen roll om du kom in sist eller grundade bolaget. Inga konsulttrappor, stegar, etc. Alla har samma förutsättningar fråndag 1.",
+      "image": "iconmap.svg#svgView(viewBox(183, 56, 20, 20))"
     },
     {
       "title": "Good times",
-      "text": "...och eftersom man ändå ska jobba större delen av livet, så kan man väl försöka göra det till en väldigt angenäm sak. Jobb ska också vara roligt!"
+      "text": "...och eftersom man ändå ska jobba större delen av livet, så kan man väl försöka göra det till en väldigt angenäm sak. Jobb ska också vara roligt!",
+      "image": "iconmap.svg#svgView(viewBox(476, 381, 20, 20))"
     }
   ]
 }
