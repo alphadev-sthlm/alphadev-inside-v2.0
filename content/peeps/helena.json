@@ -1,0 +1,33 @@
+{
+  "isPublished": true,
+  "name": "Helena Tehler",
+  "title": "Projektledare",
+  "image": "peeps2/Helena_prt_pale_sml.jpg",
+  "image-large": "peeps3/helena.jpeg",
+  "details": {
+    "questions": [
+      {
+        "q": "Om du var Harry Potter: vilket elevhem skulle du hamnat i?",
+        "a": "Gryffindor. Tråkigt val, men jag gjorde ett test på Internet och då måste det stämma."
+      },
+      {
+        "q": "När peakade Hasselhoff?",
+        "a": "Night rider."
+      },
+      {
+        "q": "Sämsta djuret att bli dödad av?",
+        "a": "Alligator verkar jobbigt. Saknar lyckligtvis relevant erfarenhet."
+      },
+      {
+        "q": "Hur många koppar kaffe om dagen bör man dricka?",
+        "a": "Så många man vill. Jag kör normalt tre."
+      },
+      {
+        "q": "Vem är Helena?",
+        "a": "Numer projektledare efter 15 år som utvecklare. Bor lantligt i Nacka med man, två barn, fyra råttor och okänt antal akvariefiskar. Gillar att se på tv-serier, dricka vin och umgås med vänner, gärna samtidigt."
+      }
+    ],
+    "body": [
+    ]
+  }
+} 
