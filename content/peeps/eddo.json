@@ -20,7 +20,11 @@
       },
       {
         "q": "Bästa programmeringsspråket?",
-        "a": "javascript"
+        "a": "JavaScript"
+      },
+      {
+        "q": "Vem är Eduardo?",
+        "a": "Utvecklare och basist/sångare/låtskrivare i bandet Turnleft(inget one man band). Bor i Råsunda med flickvän, har en stor passion för fotboll, vilket är en av de stora anledningarna till att han bor i Solna. Gillar att kolla på film, helst drama."
       }
     ],
     "body": [
