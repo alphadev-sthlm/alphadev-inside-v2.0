@@ -8,13 +8,22 @@
   <link rel="stylesheet" href="main.css" />
   <link rel="shortcut icon" type="image/x-icon" href="https://alphadev.se/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133865883-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-133865883-2');
+  </script>
+
 </head>
 
 <body>
   {{> dotstyle-menu }}
   <img id="bg-triangle-green" class="bg-triangle bg-triangle--green" src="/triangles/pattern_triangel_gron.svg" alt="triangles">
   <img id="bg-triangle-blue" class="bg-triangle bg-triangle--blue" src="/triangles/pattern_triangel_bla.svg" alt="triangles">
-  {{!-- <img id="bg-triangle-orange" class="bg-triangle-orange" src="/triangles/personal_orange.svg" alt="triangles"> --}}
+  {{!-- <img id="bg-triangle-orange" class="bg-triangle-orange" src="/triangles/personal_orange.svg" alt="triangles">
+  --}}
   <img id="bg-triangle-blue-small" class="bg-triangle-blue-small" src="/triangles/personal_bla.svg" alt="triangles">
 
   {{{body}}}
