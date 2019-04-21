@@ -1,5 +1,7 @@
 function arrowAnimation() {
   const arrow = window.document.getElementById("cover-arrow");
+  if (!arrow) return;
+
   arrow.classList.add('cover__arrow--anim');
 
   setTimeout(() => {

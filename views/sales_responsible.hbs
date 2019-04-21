@@ -1,0 +1,73 @@
+<div class="sales-responsible">
+  <h1 class="sales-responsible__title">{{title}}</h1>
+  <div class="sales-responsible__preamble">
+    {{#each preamble.parts}}
+      <p>{{this}}</p>
+    {{/each}}
+  </div>
+  <div class="sales-responsible__join-us">
+    <a href="#contact">
+      <span class="orange-btn">{{buttons.contact}}</span>
+    </a>
+  </div>
+  <div class="sales-responsible__section">
+    <h3 class="sales-responsible__section-title">{{background.title}}</h3>
+    {{#each background.parts}}
+      <p>{{this}}</p>
+    {{/each}}
+  </div>
+  <div class="sales-responsible__section">
+    <h3 class="sales-responsible__section-title">{{about.title}}</h3>
+    {{#each about.parts}}
+    <p>{{this}}</p>
+    {{/each}}
+    <div class="sales-responsible__list">
+      <h4 class="sales-responsible__list-title">{{about.tasks.title}}</h4>
+      <ul>
+        {{#each about.tasks.list}}
+          <li class="sales-responsible__list-item">{{this}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+  <div class="sales-responsible__section">
+    <h3 class="sales-responsible__section-title">{{profile.title}}</h3>
+    <div class="sales-responsible__list">
+      <h4 class="sales-responsible__list-title">{{profile.expectations.title}}</h4>
+      <ul>
+        {{#each profile.expectations.list}}
+        <li class="sales-responsible__list-item">{{this}}</li>
+        {{/each}}
+      </ul>
+    </div>
+    <div class="sales-responsible__list">
+      <h4 class="sales-responsible__list-title">{{profile.meritorious.title}}</h4>
+      <ul>
+        {{#each profile.meritorious.list}}
+        <li class="sales-responsible__list-item">{{this}}</li>
+        {{/each}}
+      </ul>
+    </div>
+    <h4 class="sales-responsible__list-title">{{profile.youAre.title}}</h4>
+    {{#each profile.youAre.parts}}
+      <p>{{this}}</p>
+    {{/each}}
+  </div>
+  <div class="sales-responsible__section">
+    <h3 class="sales-responsible__section-title">{{weOffer.title}}</h3>
+    {{#each weOffer.parts}}
+    <p>{{{this}}}</p>
+    {{/each}}
+  </div>
+  <div class="sales-responsible__section" id="contact">
+    <h3 class="sales-responsible__section-title">{{other.title}}</h3>
+    <div class="sales-responsible__list">
+      <ul>
+        {{#each other.list}}
+        <li class="sales-responsible__list-item">{{{this}}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+  {{> back_to_inside backToInside }}
+</div>
