@@ -9,13 +9,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column
 
   @media (min-width: is_tablet) {
-    padding: 50px side_padding 50px;
+    flex-flow: row;
   }
 
   &-title {
     text-decoration: underline;
+    margin-bottom: 20px;
+    text-align: center;
+
+    @media (min-width: is_tablet) {
+      margin-bottom: 0;
+    }
   }
 
   &-arrow-wrapper {
