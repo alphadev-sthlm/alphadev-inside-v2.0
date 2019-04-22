@@ -1,0 +1,40 @@
+.job-opportunity {
+  background: rgba(124, 159, 135, 0.2);
+}
+
+.job-opportunity__link {
+  margin: 0 auto;
+  max-width: content-width;
+  padding: 50px side_padding 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: is_tablet) {
+    padding: 50px side_padding 50px;
+  }
+
+  &-title {
+    text-decoration: underline;
+  }
+
+  &-arrow-wrapper {
+    width: 35px;
+    height: 38px;
+    margin: 0 30px;
+    position: relative;
+  }
+
+  &-arrow {
+    width: 100%;
+    transform: rotate(-90deg) translateY(-70px);
+    position: absolute;
+    opacity: 0;
+    transition: all 1800ms ease-in-out;
+  }
+
+  &-arrow--anim {
+    opacity: 1;
+    transform: rotate(-90deg) translateY(0px);
+  }
+}

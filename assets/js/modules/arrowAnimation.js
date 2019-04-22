@@ -1,23 +1,47 @@
 function arrowAnimation() {
-  const arrow = window.document.getElementById("cover-arrow");
-  if (!arrow) return;
+  const topArrow = window.document.getElementById("cover-arrow");
+  const bottomArrow = window.document.getElementById("job-arrow");
 
-  arrow.classList.add('cover__arrow--anim');
+  if (topArrow) {
+    animateTopArrow(topArrow);
+  }
+
+  if (bottomArrow) {
+    animateBottomArrow(bottomArrow);
+  }
+}
+
+function animateTopArrow(arrowElement) {
+  arrowElement.classList.add('cover__arrow--anim');
 
   setTimeout(() => {
-    arrow.classList.add('cover__arrow--bounce');
+    arrowElement.classList.add('cover__arrow--bounce');
   }, 3000);
 
   new Waypoint({
     element: document.getElementById("cover"),
     handler: (direction) => {
       if (direction === "down") {
-        arrow.classList.add("cover__arrow--remove");
+        arrowElement.classList.add("cover__arrow--remove");
       } else {
-        arrow.classList.remove("cover__arrow--remove");
+        arrowElement.classList.remove("cover__arrow--remove");
       }
     },
     offset: -window.innerHeight / 2
+  });
+}
+
+function animateBottomArrow(arrowElement) {
+  new Waypoint({
+    element: document.getElementById("job-opportunity"),
+    handler: (direction) => {
+      if (direction === "down") {
+        arrowElement.classList.add("job-opportunity__link-arrow--anim");
+      } else {
+        arrowElement.classList.remove("job-opportunity__link-arrow--anim");
+      }
+    },
+    offset: window.innerHeight
   });
 }
 
