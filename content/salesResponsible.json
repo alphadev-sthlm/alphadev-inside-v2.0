@@ -76,9 +76,14 @@
       "Start: Flexibelt, gärna start efter sommaren, men vi kan vänta på rätt person.",
       "Omfattning: Heltid, men även deltid kan gå bra om du har önskemål om det",
       "Placering: Kungsgatan 6, Stockholm",
-      "Vid frågor om tjänsten, vänligen kontakta Jon Neergaard VD, 0702 – 96 00 05 eller <a href='mailto:jon.neergaard@alphadev.se'>jon.neergaard@alphadev.se</a>",
-      "Ansökningar: Skicka din ansökan till <a href='mailto:andrea.filling@alphadev.se'>andrea.filling@alphadev.se</a>"
+      "Vid frågor om tjänsten, vänligen kontakta Jon Neergaard VD, 0702 – 96 00 05 eller <a href='mailto:jon.neergaard@alphadev.se'>jon.neergaard@alphadev.se</a>"
     ]
+  },
+  "apply": {
+    "title": "Ansök",
+    "mail": "andrea.filling@alphadev.se",
+    "text": "Skicka din ansökan till andrea.filling@alphadev.se",
+    "subject": "Säljansvarig"
   },
   "buttons": {
     "contact": "BLI EN AV OSS"

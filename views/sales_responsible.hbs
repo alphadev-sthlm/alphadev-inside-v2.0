@@ -5,11 +5,6 @@
       <p>{{this}}</p>
     {{/each}}
   </div>
-  <div class="sales-responsible__join-us">
-    <a href="#contact">
-      <span class="orange-btn">{{buttons.contact}}</span>
-    </a>
-  </div>
   <div class="sales-responsible__section">
     <h3 class="sales-responsible__section-title">{{background.title}}</h3>
     {{#each background.parts}}
@@ -68,6 +63,14 @@
         {{/each}}
       </ul>
     </div>
+  </div>
+
+  <div class="sales-responsible__section">
+    <a href="mailto:{{apply.mail}}?subject={{apply.subject}}">
+      <div class="sales-responsible__apply-button">
+        {{apply.text}}
+      </div>
+    </a>
   </div>
   {{> back_to_inside backToInside }}
 </div>
