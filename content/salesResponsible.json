@@ -1,5 +1,5 @@
 {
-  "title": "Säljansvarig",
+  "title": "Säljansvarig",
   "preamble": {
     "parts" : [
       "Alphadev är ett konsultbolag med erfarna specialister inom systemutveckling, inriktade på agil utveckling på moderna plattformarinom hela stacken.",
@@ -82,7 +82,7 @@
   "apply": {
     "title": "Ansök",
     "mail": "andrea.filling@alphadev.se",
-    "text": "Skicka din ansökan till andrea.filling@alphadev.se",
+    "text": "Skicka din ansökan till andrea.filling@alphadev.se",
     "subject": "Säljansvarig"
   },
   "buttons": {
