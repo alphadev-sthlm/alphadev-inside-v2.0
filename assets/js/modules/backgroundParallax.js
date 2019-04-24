@@ -13,15 +13,14 @@ function addParallaxEffect() {
     triangleGreen.style.top = `-${Math.round(positionGreen)}px`;
     triangleBlueSmall.style.bottom = `${Math.round(positionBlueSmall)}px`;
     triangleBlue.style.bottom = `${Math.round(positionBlue)}px`;
-    // triangleOrange.style.bottom = `${Math.round(positionOrange)}px`; 
+    // triangleOrange.style.bottom = `${Math.round(positionOrange)}px`;
   });
 }
 
 function backgroundParallax() {
   const triangleGreen = window.document.getElementById("bg-triangle-green");
-
   const isDisplayed = triangleGreen.offsetHeight > 0;
-  if (isDisplayed) addParallaxEffect();  
+  if (isDisplayed) addParallaxEffect();
 }
 
 export default backgroundParallax;

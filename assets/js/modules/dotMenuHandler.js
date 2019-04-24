@@ -4,15 +4,19 @@ function addDotMenuHandler() {
   const sections = document.getElementsByClassName("section");
   const viewportHeight = window.innerHeight;
   const dotMenu = document.getElementById('dot_menu');
-
+  console.log(dotMenu, sections, dotMenuListItems);
   setupSmoothScrolling();
   setupDotmenuTriggers();
 
 
   function setupDotmenuTriggers() {
     // show and hide dotmenu via waypoint triggers
+
+    const element = document.getElementById("one_of_us");
+    if (!element) return;
+
     new Waypoint({
-      element: document.getElementById("one_of_us"),
+      element: element,
       handler: (direction) => {
         if (direction === "down") {
           dotMenu.classList.add('dotstyle-menu--scrolled');
