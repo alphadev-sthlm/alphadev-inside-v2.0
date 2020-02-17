@@ -29,6 +29,16 @@
   }
 }
 
+.timeline__items li:nth-of-type(1) {
+  padding-top: 0;
+  .timeline__arrow {
+    transform: translateY(-15px)
+  }
+}
+.timeline__arrow:last-of-type {
+    transform: translateY(25px)
+}
+
 .timeline__items li {
   position: relative;
   width: 100%;
@@ -69,8 +79,8 @@
   width: 50px;
   height: 50px;
   position: absolute;
-  top: 50%;
-  transform: translateY(-15px);
+  top: 0;
+  transform: translateY(15px);
   left: -25px;
   background-color: green;
 }
