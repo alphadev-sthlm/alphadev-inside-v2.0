@@ -1,0 +1,29 @@
+{
+  "isPublished": true,
+  "name": "Helene Westrin",
+  "title": "UX & UI Designer",
+  "image": "peeps2/Helene_prt_pale_sml.jpg",
+  "image-large": "peeps3/helene.jpeg",
+  "details": {
+    "questions": [
+	  {
+        "q": "Italiensk vedugnspizza eller old school förortspizza?",
+        "a": "Beror på tillfället skulle jag säga. En bakissöndag är det förortspizza utan tvekan, men är jag ute och gör stan så tar jag hellre en italiensk vedugnspizza."
+      },
+      {
+        "q": "Vilken känd TV-serie-karaktär känner du dig mest lik?",
+        "a": "Jäkligt svår fråga, så jag lejde ut den till tre vänner och fick tre olika svar. Penny från Big Bang Theory, Abby från NCIS och April från Parks and Recreation. Sug på den ni!"
+      },
+      {
+        "q": "Favoritvapen i CS?",
+        "a": "Jag håller mig till de säkra klassikerna - M4A4 och AK47."
+      },
+      {
+        "q": "Vem är Helene?",
+        "a": "Fetaostälskande designer från Sundsvall. Tycker om att sjunga, spela brädspel och resa när det är pandemifritt. Konsumerar även en stor del tv-serier och har precis börjat med ljudböcker, just nu Harry Potter. Fortfarande bästa bokserien jag vet!"
+      }	  
+    ],
+    "body": [
+    ]
+  }
+}
