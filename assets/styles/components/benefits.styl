@@ -1,24 +1,38 @@
+.benefits {
+  max-width: content-width;
+  padding: 50px 0;
+  margin: 0 auto;
+
+  @media (min-width: is_tablet) {
+    padding: 100px 0;
+  }
+
+  &-title {
+    text-align: center;
+  }
+}
+
 .benefits-details {
   flex: 0 0 100%;
   flex-wrap: wrap;
   display: flex;
   align-items: center;
-  &--hide {
-    display: none;
-  }
+  padding-bottom: 40px;
   justify-content: center;
 
   &__image-wrapper {
-    justify-content center
+    justify-content: center;
   }
 
   &__text {
     flex: 0 0 100%;
     text-align: left;
+
     @media (min-width: is_tablet) {
       margin-left: 5px;
-      flex: 0 0 60%
+      flex: 0 0 60%;
     }
+
     @media (max-width: is_tablet) {
       h3 {
         margin-top: 25px;
@@ -30,22 +44,14 @@
     &--desktop {
       width: 150px;
       height: auto;
+
       @media (min-width: is_tablet) {
-        display:block;
+        display: block;
       }
+
       align-items: center;
     }
   }
-}
-
-.benefits {
-  max-width: content-width;
-  padding: 50px 0;
-  margin: 0 auto;
-
-  @media (min-width: is_tablet) {
-		padding: 100px 0;
-	}
 }
 
 .benefits__overlay {
@@ -54,62 +60,23 @@
   width: 100%;
   height: 400px;
   display: flex;
-  flex-flow : column;
+  flex-flow: column;
   justify-content: center;
   padding: 0 side_padding;
   text-align: center;
 
   @media (min-width: is_tablet) {
-		height: 300px;
+    height: 300px;
     padding: 0 14%;
-	}
+  }
 
   &-title {
     text-align: center;
   }
-}
 
-.benefits__overlay-text {
-  font-size: 18px;
-  margin: 30px 30px 55px 30px;
-  text-align: center;
-  @media (min-width: is_tablet) {
-		text-align: left;
-	}
-}
-
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-}
-
-.swiper-button-prev, .swiper-button-next {
-  display: none;
-  opacity: 0.5;
-  top: 0;
-  bottom: 0;
-  width: 50px;
-  height: auto;
-  background-size: 16px 44px;
-  outline: none;
-
-  @media (min-width: is_tablet) {
-		display: block;
-	}
-}
-
-.swiper-button-prev {
-  background-position: left;
-}
-
-.swiper-button-next {
-  background-position: right;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: orange;
+  &-text {
+    font-size: 18px;
+    margin: 20px 30px 35px 30px;
+    text-align: center;
+  }
 }

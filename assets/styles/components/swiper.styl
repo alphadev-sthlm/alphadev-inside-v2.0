@@ -1,0 +1,35 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+    opacity: 0.5;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: auto;
+    background-size: 16px 44px;
+    outline: none;
+
+    @media (min-width: is_tablet) {
+        display: block;
+    }
+}
+
+.swiper-button-prev {
+    background-position: left;
+}
+
+.swiper-button-next {
+    background-position: right;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: orange;
+}
