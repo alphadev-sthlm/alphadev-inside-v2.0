@@ -11,20 +11,20 @@
         "a": "Såna man äter godis till."
       },
       {
-        "q": "Om du var Harry Potter: vilket elevhem skulle du hamnat i?",
-        "a": "Harry who?"
+        "q": "Senaste coola verktyget/ramverket du kollade på?",
+        "a": "Finns otroligt många bra verktyg för kubernetes... svårt att välja, men flagger verkar najs... kanske istio ... eller terraform..."
       },
       {
         "q": "Vilken våning är du?",
         "a": "Härligt med en enkel fråga! Våning 6. Så man överlever då hissen står still, och samtidigt ser himlen."
       },
       {
-        "q": "Sämsta djuret att bli dödad av?",
-        "a": "Katten Selma; alltså min katt som är styva 100 kattår(?)"
+        "q": "Vad är ditt mest pinsamma minne från ett uppdrag?",
+        "a": "När jag råkade sätta igång larmet hos kunden, sent på kvällen, en långfredag. IT-chefen (som hade gäster) fick ta taxi till kontoret och stänga av!"
       },
       {
         "q": "Vem är Jens?",
-        "a": "Javautvecklare & golfande black metal lover med två barn. Jag är lat-smart och en allmänt sjysst dude, tycker både jag och mamma."
+        "a": "Javautvecklare & golfande black metal lover med två barn. En allmänt sjysst dude, tycker både jag och mamma."
       }
     ],
     "body": [
