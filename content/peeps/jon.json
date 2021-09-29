@@ -8,19 +8,19 @@
     "questions": [
       {
         "q": "Vilken var den senaste bra boken du läste?",
-        "a": "Så många bra… Liv 3.0 med Max Tegmark var senaste."
+        "a": "Så många bra… Sci-fi dystopi ligger alltid bra till. ”Three body problem”-trilogin av Cixin Liu kan rekommenderas."
+      },
+	  {
+        "q": "Bästa programmeringsspråket?",
+        "a": "Pajas-svar: 10 PRINT ”Basic rules”. Politiker-svar: Alla språk har sina för- och nackdelar beroende på kontext bla bla. Rätt svar: Java"
       },
       {
         "q": "Alien 1 eller 2?",
         "a": "Båda är episkt bra, men tvåan är bäst!"
       },
       {
-        "q": "Bästa programmeringsspråket?",
-        "a": "10 PRINT ”Basic rules”"
-      },
-      {
         "q": "Vem är Jon?",
-        "a": "VD och allt-i-allo på Alphadev. Började som utvecklare en gång i tiden, sen vet jag inte riktigt vad som gick snett 😊. Bor i Sollentuna med min sambo, våra tre barn och katten Sigge."
+        "a": "VD och allt-i-allo på Alphadev. Började som utvecklare en gång i tiden (Java dårå), sen vet jag inte riktigt vad som gick snett 😊. Bor i Sollentuna med min sambo, våra tre barn och katten Sigge."
       }
     ],
     "body": [

@@ -1,5 +1,5 @@
 {
-  "isPublished": false,
+  "isPublished": true,
   "name": "Leon Hennings",
   "title": "Utvecklare",
   "image": "peeps2/Leon_prt_pale_sml.jpg",
@@ -7,20 +7,27 @@
   "details": {
     "questions": [
       {
-        "q": "När smakar en Tuborg bäst?",
-        "a": "Hvergang!"
+        "q": "Hur ser det perfekta utvecklingsteamet ut?",
+        "a": "Alla är delaktiga, driver saker i mål och håller rent efter sig."
+      },
+	  {
+        "q": "Vilket är ditt bästa konferensminne?",
+        "a": "När vi gjorde en karaoke takeover av en nästan tom bar i Spanien och nästan sjöng ihjäl oss och de som jobbade där."
+      },
+	  {
+        "q": "Bästa resmålet för långsemester?",
+        "a": "I teorin Nya Zeeland, i verkligheten är det nog landstället på Väddö."
+      },
+ 	  {
+        "q": "Vad är bäst med Alphadev?",
+        "a": "Avsaknaden av floskler och corporate snack, alla får vara sig själva och det erbjuds något för alla."
       },
       {
-        "q": "Finns fri vilja?",
-        "a": "Troligtvis inte, men det spelar ingen roll."
-      },
-      {
-        "q": "Alien eller Aliens?",
-        "a": "Ettan såklart"
+        "q": "Vem är Leon?",
+        "a": "Oftast snäll och glad, men just idag en ganska matt person som har bråkat mycket med trasiga testmiljöer. Jag svettas mycket när jag dansar, skränar när jag sjunger karaoke och har lite för små hawaii skjortor ibland."
       }
     ],
-    "body": [
-      "Lorem ipsum dolor amet master cleanse truffaut taiyaki, hammock irony mustache flexitarian raclette seitan twee. Vexillologist man bun kogi shaman. Truffaut pitchfork offal art party."
+    "body": [     
     ]
   }
 }
