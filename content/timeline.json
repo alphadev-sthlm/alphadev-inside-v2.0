@@ -62,7 +62,14 @@
         "Vårt stora fokus på fysiska events för sammanhållning fick ställas om till remote dito, vilket förstås utmanat vår fantasi - men inte vår ambition. Istället för att ge upp och vänta ut, så anpassar vi oss: inspect & adapt!"]
     },
     {
-      "title": "2021 Året då du började hos oss...?",
+      "title": "2021 Dansa. Pausa.",
+	  "text": [
+		"Året började rejält covid-frostigt, även om marknaden börjat tina upp lite. Sommaren kom och pandemin började kännas besegrad. Våra irl-träffar kom igång, vår första Code Camp i Spanien gick av stapeln och vi trodde nog att allt snart skulle vara som vanligt. Men så kom Omikron mot slutet av året och kopplade ett struptag; remote-livet får fortsätta ett tag till.",
+		"På arbetsplatserna har vi iaf vant oss att jobba remote, och marknaden är lika het igen som någonsin, så nu dansar vi igen - men inga tryckare tills vidare"]
+      
+    },
+	{
+      "title": "2022 Året då du började hos oss...?",
       "text": [""]
     }
   ]
