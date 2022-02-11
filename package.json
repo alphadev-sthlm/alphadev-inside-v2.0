@@ -23,7 +23,7 @@
     "chokidar": "^2.0.4",
     "compression": "^1.7.4",
     "express": "^4.16.4",
-    "express-handlebars": "^3.0.0",
+    "express-handlebars": "^5.3.1",
     "heroku-ssl-redirect": "0.0.4",
     "log": "^1.4.0",
     "morgan": "^1.9.0",
