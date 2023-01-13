@@ -69,7 +69,14 @@
       
     },
 	{
-      "title": "2022 Året då du började hos oss...?",
+      "title": "2022 Ur askan i elden",
+	  "text": [
+		"Året när det på riktigt dags att nätverka fysiskt igen, både med träffar på kontoret, ute på stan och även första stora företagskonferensresan sedan covid slog till - som tog oss till Island på våren. Snart var vi i full gång med regelbundna träffar för att utbyta erfarenheter och ha kul tillsammans igen.",
+		"Vi rustade kontoret med fler arbetsplatser för konsulter som jobbat remote mot kund, men ändå vill komma ifrån hemmet ibland och ha lite social samvaro.",
+		"Men, från ett elände till ett annat: krig i närområdet, energikris, skenande inflation - en lågkonjunktur står för dörren...!"]      
+    },
+	{
+      "title": "2023 Året då du började hos oss...?",
       "text": [""]
     }
   ]
